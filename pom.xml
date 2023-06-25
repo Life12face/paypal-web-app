@@ -96,18 +96,18 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://http://54.193.55.233:8181/mynexus/repository/paypal-rel/</url> 
+	      <url>http://http://54.193.55.233:8181/mynexus/repository/maven-releases/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://http://54.193.55.233:8181/mynexus/repository/paypal-snap/</url>
+	      <url>http://http://54.193.55.233:8181/mynexus/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
-		<finalName>paypal-web-app</finalName>
+		<finalName>paypay</finalName>
 		
 		<plugins>
 			<plugin>
