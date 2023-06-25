@@ -102,10 +102,9 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://http://54.193.55.233:8181/mynexus/repository/tesla-snapshots/</url>
+	      <url>http://54.193.55.233.8181/repository/paypal-snapshots/</url> 
 	    </snapshotRepository>
 	</distributionManagement>
-	
 	<build>
 		<finalName>paypal-web</finalName>
 		
